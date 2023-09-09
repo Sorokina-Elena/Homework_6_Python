@@ -10,4 +10,4 @@ min = int(input("Введите минимальное число диапазо
 max = int(input("Введите максимальное число диапазона: "))
 for i in range(len(list)):
     if int(list[i]) >= min and int(list[i]) <= max:
-        print(list[i])
+        print(i)
